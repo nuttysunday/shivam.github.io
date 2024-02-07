@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #d5d3ed;
+}
+
+#intro {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.intro-text h1 {
+    margin-bottom: 10px; 
+}
+
+
+.intro-text p {
+    font-size: 18px;
+}
+
+.video-item1 iframe{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px; 
+}
+
+#projects {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+}
+
+.project-title{
+    margin-top: 50px;
+    margin-right:  900px;
+    margin-bottom: 25px;
+}
+
+#projects .video-item1 {
+    display: flex;
+    align-items: center; 
+    text-align: center;
+}
+
+.video-item1 iframe{
+    width: 300px;
+    height: 150px;
+    border-radius: 15px; 
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 230px;
+    
+}
+
+.video-description {
+    margin-left: 95px; 
+    padding: 20px; 
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.video-description h1 {
+    margin-bottom: 25px; 
+
+}
+
+#work-experience {
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.work-experience-title {
+    font-size: 24px;
+    margin-right:  800px; /* Adjusted margin */
+    margin-bottom: 25px;
+}
+
+.work-experience-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 200px;
+}
+
+.work-experience-item {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+
+#education {
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#education .education-title {
+    font-size: 24px;
+    margin-right:  875px; /* Adjusted margin */
+    margin-bottom: 25px;
+}
+
+.education-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 200px; /* Adjusted margin */
+}
+
+.education-item {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+#extracurricular {
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.extracurricular-title {
+    font-size: 24px;
+    margin-right:  725px; 
+    margin-bottom: 25px;
+}
+
+.extracurricular-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 200px;
+}
+
+.extracurricular-item {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+
+#technical-skills {
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.technical-skills-title {
+    font-size: 24px;
+    margin-right: 825px; 
+    margin-bottom: 25px;
+}
+
+.technical-skills-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 200px;
+}
+
+.technical-skill-item {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+
+
+/* CSS to add margin bottom to all <p> tags except the last one */
+p:not(:last-child) {
+    margin-bottom: 5px; /* Adjust the value as needed */
+}
+
+hr {
+    color: grey; 
+    border-width: 0px;
+}
+
+.location-icon {
+    width: 12px; /* Adjust the width to your desired size */
+    height: 15px; /* Adjust the height to your desired size */
+}
+
